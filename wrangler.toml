@@ -1,11 +1,11 @@
-name = "temp-mail"
+name = "obsidain-mail"
 main = "src/worker.js"
 compatibility_date = "2024-02-01"
 workers_dev = true
 node_compat = true
 
-routes = []
-kv_namespaces = []
+routes = [STORAGE]
+kv_namespaces = [5bc344d7fdc8404686735a327511abca]
 
 [vars]
 website_name= "Anonymous mail"
