@@ -4,8 +4,8 @@ compatibility_date = "2024-02-01"
 workers_dev = true
 node_compat = true
 
-routes = [STORAGE]
-kv_namespaces = [5bc344d7fdc8404686735a327511abca]
+routes = []
+kv_namespaces = [{ binding = "kv4email", id = "5bc344d7fdc8404686735a327511abca" }]
 
 [vars]
 website_name= "Anonymous mail"
